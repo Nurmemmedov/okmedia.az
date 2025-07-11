@@ -1,0 +1,9 @@
+@import "tailwindcss";
+ol {
+  counter-reset: my-sec-counter;
+}
+
+ol li::before {
+  counter-increment: my-sec-counter;
+  content: counter(my-sec-counter);
+}

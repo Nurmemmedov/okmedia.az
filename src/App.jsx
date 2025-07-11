@@ -8,7 +8,7 @@ import CardDetail from './Pages/CardDetail';
 import Coment from './Pages/Coment';
 import Career from './Pages/Career';
 import BloqCards from './Pages/BloqCards';
-import ScrollToTop from './Components/ScrollToTop'; 
+import ScrollToTop from "./Components/ScrollToTop";
 import Projects from './Pages/Projects';
 import Web from './Pages/Web';
 import Bloq from './Pages/Bloq';

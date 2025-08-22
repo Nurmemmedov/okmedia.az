@@ -78,9 +78,9 @@ function Section5() {
               {item.h3}
             </h3>
 
-            <div className="inline-block bg-gray-100 text-gray-600 text-base px-6 py-1 rounded-full whitespace-nowrap">
-              {item.title}
-            </div>
+        <div className="inline-block bg-gray-100 text-gray-600 text-sm sm:text-base px-4 sm:px-6 py-1 rounded-full whitespace-normal max-w-full break-words">
+          {item.title}
+        </div>
           </div>
         ))}
       </div>

@@ -20,7 +20,7 @@ import Contact from './Pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/okmedia.az">
       <ScrollToTop /> 
       <Routes>
         <Route path="/" element={<Layout />}>
